@@ -59,9 +59,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 :root {
-  --color-primary: #617559;
-  --color-primary-alt: #ff014dd9;
-  --color-primary-2nd: #FF494A;
+  --color-primary: #52105a;
+  --color-primary-alt: #9b2e8a;
+  --color-primary-2nd: #c7b699;
   --color-primary-3rd: #FDC448;
   --color-primary-4th: #0071ff;
   --color-secondary: #060606;
@@ -10974,7 +10974,7 @@ body.sal-disabled [data-sal|=flip] {
   backdrop-filter: blur(9px);
   width: 100%;
   box-shadow: 0px 7px 18px rgba(24, 16, 16, 0.0509803922);
-  background: var(--color-gray-2);
+  background: #fdfdfd;
   z-index: 999;
   margin: auto;
   display: flex;
@@ -20098,7 +20098,7 @@ section.clients-testimonial-area {
   right: 0;
 }
 .price-plan-card .price-sub-title {
-  color: var(--color-heading);
+  color: var(--color-white);
   font-family: var(--font-primary);
   font-size: 24px;
   font-weight: 700;
@@ -20156,7 +20156,7 @@ section.clients-testimonial-area {
   color: var(--color-primary);
 }
 .check-box .check-box-item .box-para {
-  color: var(--color-gray);
+  color: var(--color-white-75);
   font-family: var(--font-secondary);
   font-size: 20px;
   font-weight: 400;
@@ -20997,7 +20997,7 @@ body.loaded {
   margin-bottom: 5px;
 }
 .education-experience-card .edu-title {
-  color: var(--color-heading);
+  color: var(--color-white);
   font-family: var(--font-primary);
   font-size: 26px;
   font-weight: 700;
@@ -22194,7 +22194,7 @@ body.loaded {
   margin-bottom: 0;
 }
 .service-card-v2 .service-card-num {
-  color: var(--color-heading);
+  color: var(--color-white);
   font-family: var(--font-primary);
   font-size: 24px;
   font-weight: 700;
@@ -26686,9 +26686,9 @@ body.tmp-white-version {
   --color-heading: #141414;
   --color-gray: #5d6570;
   --color-body: #2a2d31;
-  --color-gray-2: #fff9ea;
+  --color-gray-2: #9b2e8a;
   --color-border: #D9DDE0;
-  background: #fff7e1;
+  background: #fdfdfd;
   /* mudei o background do site da Aline aqui */
 }
 body.tmp-white-version .bg_modern-banner-bg {
